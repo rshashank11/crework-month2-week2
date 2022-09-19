@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.task-container {
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+}
+
+
+.task-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.task-checkbox {
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.task-checkbox:hover {
+    background-color: lightgreen;
+}
+
+.task-checkbox.done {
+    background: lightgreen;
+    text-decoration: line-through;
+}
+
+.task-item.done {
+    text-decoration: line-through;
+}
